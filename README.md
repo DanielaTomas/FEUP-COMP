@@ -5,6 +5,17 @@
 * Diogo Nunes, up202007895, Contribution: 33,(3)%
 * João Veloso, up202005801, Contribution: 33,(3)%
 
+## Project Info
+
+This project was developed in 2 separate stages:
+- Stage 1: AST and Symbol Table  
+ AST built using ANTLR with simplified Java syntax.  
+ Symbol Table developed using Java Classes for representing the table, methods and variables.
+- Stage 2: Semantic analysis , IR code generation and Jasmin code generation:  
+ Semantic analysis developed by [Daniela Tomás](https://github.com/DanielaTomas).  
+ IR code generation developed by [Diogo Nunes](https://github.com/ICWeiner).  
+ Jasmin code generation developed by [João Veloso](https://github.com/pedrobritoveloso).  
+
 * Auto-evaluation: 18
 
 For this project, you need to install [Java](https://jdk.java.net/), [Gradle](https://gradle.org/install/), and [Git](https://git-scm.com/downloads/) (and optionally, a [Git GUI client](https://git-scm.com/downloads/guis), such as TortoiseGit or GitHub Desktop). Please check the [compatibility matrix](https://docs.gradle.org/current/userguide/compatibility.html) for Java and Gradle versions.
